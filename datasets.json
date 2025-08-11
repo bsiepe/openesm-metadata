@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "created_at": "2025-08-07 09:36:42",
+    "created_at": "2025-08-11 07:59:30",
     "n_datasets": 3,
     "description": "Combined metadata from all OpenESM datasets"
   },
@@ -12,7 +12,7 @@
       "reference_a": "@article{fried2022,\n  title = {Mental health and social contact during the {{COVID-19}} pandemic: An ecological momentary assessment study},\n  shorttitle = {Mental health and social contact during the {{COVID-19}} pandemic},\n  author = {Fried, Eiko I. and Papanikolaou, Faidra and Epskamp, Sacha},\n  date = {2022-03-01},\n  journaltitle = {Clinical Psychological Science},\n  volume = {10},\n  number = {2},\n  pages = {340--354},\n  publisher = {SAGE Publications Inc},\n  doi = {10.1177/21677026211017839}\n}",
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1177/21677026211017839",
-      "link_to_zenodo": {},
+      "zenodo_doi": "10.5072/zenodo.308201",
       "link_to_data": "https://osf.io/mvdpe/",
       "link_to_codebook": "https://osf.io/mx87b",
       "link_to_code": "https://osf.io/mvdpe/",
@@ -112,7 +112,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "negative affect, affect",
+          "construct": "relaxation, negative affect, affect, neuroticism, big five, psychopathology",
           "comments": ""
         },
         {
@@ -126,7 +126,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "negative affect, affect",
+          "construct": "irritability, negative affect, affect, neuroticism, big five, psychopathology",
           "comments": ""
         },
         {
@@ -140,7 +140,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "negative affect, affect, anxiety",
+          "construct": "worry, negative affect, affect, neuroticism, big five, psychopathology",
           "comments": ""
         },
         {
@@ -154,7 +154,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "negative affect, affect, anxiety",
+          "construct": "nervousness, anxiety, negative affect, affect, neuroticism, big five, psychopathology",
           "comments": ""
         },
         {
@@ -168,7 +168,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "depression",
+          "construct": "depression, psychopathology",
           "comments": ""
         },
         {
@@ -182,7 +182,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "depression",
+          "construct": "anhedonia, depression, psychopathology",
           "comments": ""
         },
         {
@@ -196,7 +196,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "sleep",
+          "construct": "tiredness, negative affect, affect, biological, psychopathology",
           "comments": ""
         },
         {
@@ -210,7 +210,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "hunger",
+          "construct": "hunger, biological",
           "comments": ""
         },
         {
@@ -224,7 +224,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "loneliness",
+          "construct": "loneliness, social functioning",
           "comments": ""
         },
         {
@@ -238,7 +238,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "negative affect",
+          "construct": "anger, negative affect, affect, psychopathology",
           "comments": ""
         },
         {
@@ -252,7 +252,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "social, activity",
+          "construct": "offline social interaction, social interaction, activity, context",
           "comments": ""
         },
         {
@@ -266,7 +266,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "social media",
+          "construct": "online social interaction, social interaction, activity, context",
           "comments": ""
         },
         {
@@ -280,7 +280,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "activity, music",
+          "construct": "music, activity, context",
           "comments": ""
         },
         {
@@ -294,7 +294,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "procrastination",
+          "construct": "procrastination, activity",
           "comments": ""
         },
         {
@@ -308,7 +308,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "activity, location",
+          "construct": "location, context",
           "comments": ""
         },
         {
@@ -350,7 +350,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "activity, location",
+          "construct": "location, context",
           "comments": ""
         },
         {
