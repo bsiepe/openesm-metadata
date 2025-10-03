@@ -15,8 +15,8 @@ The bundled `datasets.json` file provides programmatic access to all dataset met
 
 ## Automation
 
-Metadata is automatically synchronized and bundled using GitHub Actions. The workflow can be triggered manually or runs monthly to catch updates.
+Metadata are automatically synchronized and bundled using GitHub Actions. The workflow can be triggered manually or runs monthly to catch updates.
 
 ## License
 
-This metadata is licensed under [CC BY 4.0](LICENSE). Please cite the original dataset authors when using this metadata.
+This metadata are licensed under [CC BY 4.0](LICENSE). Please cite the original dataset authors when using this metadata.
