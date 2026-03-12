@@ -1,0 +1,65 @@
+name: sync metadata to website
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout openesm-metadata
+        uses: actions/checkout@v4
+        with:
+          path: openesm-metadata
+
+      - name: checkout openesm website repo
+        uses: actions/checkout@v4
+        with:
+          repository: openesm-project/openesm
+          token: ${{ secrets.OPENESM_PAT }}
+          path: openesm
+
+      - name: copy dataset metadata JSON files to website repo
+        run: |
+          # --delete is intentionally omitted: removals/renames in openesm-metadata
+          # will not automatically delete pages in openesm. Remove that dataset's
+          # content/datasets/ entry manually to avoid accidental page deletion.
+          rsync -av openesm-metadata/datasets/ openesm/datasets/
+
+      - name: setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: install script dependencies
+        working-directory: openesm
+        # npm install --no-save is used because openesm has no package.json or lockfile.
+        # Once a package.json is added to openesm, switch to: npm ci
+        run: npm install --no-save @citation-js/core @citation-js/plugin-bibtex @citation-js/plugin-csl
+
+      - name: regenerate dataset pages
+        working-directory: openesm
+        run: node scripts/generate_dataset_pages.js
+
+      - name: regenerate datasets table
+        working-directory: openesm
+        run: node scripts/generate_datasets_table.js
+
+      - name: regenerate search index
+        working-directory: openesm
+        run: node scripts/generate_search_index.js
+
+      - name: commit and push changes to openesm
+        working-directory: openesm
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add datasets/ website/content/datasets/ website/static/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: sync metadata from openesm-metadata ${{ github.ref_name }}"
+            git push
+          else
+            echo "No changes to commit, skipping push"
+          fi
