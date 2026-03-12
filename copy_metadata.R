@@ -1,11 +1,11 @@
 # copy metadata files from github repository to local dataset folders
 
-github_base_url <- "https://raw.githubusercontent.com/bsiepe/openesm-cleaning/main/data/metadata"
+github_base_url <- "https://raw.githubusercontent.com/openesm-project/openesm-cleaning/main/data/metadata"
 local_datasets_dir <- "datasets"
 
 get_available_metadata_files <- function() {
   # use github api to list files in the metadata directory
-  api_url <- "https://api.github.com/repos/bsiepe/openesm-cleaning/contents/data/metadata"
+  api_url <- "https://api.github.com/repos/openesm-project/openesm-cleaning/contents/data/metadata"
   
   tryCatch({
     response <- jsonlite::fromJSON(api_url)
