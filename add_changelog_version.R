@@ -1,5 +1,10 @@
 suppressPackageStartupMessages(library(jsonlite))
 
+set_field <- function(x, name, value) {
+  x[name] <- list(value)
+  x
+}
+
 files <- Sys.glob("datasets/*/*_metadata.json")
 files <- sort(files)
 
@@ -40,17 +45,17 @@ for (f in files) {
   inserted <- FALSE
 
   for (nm in nms) {
-    new_obj[[nm]] <- obj[[nm]]
+    new_obj[nm] <- obj[nm]
     if (identical(nm, "zenodo_doi")) {
-      if (!has_dataset_version) new_obj[["dataset_version"]] <- "1.0.0"
-      if (!has_changelog) new_obj[["changelog"]] <- list(changelog_entry)
+      if (!has_dataset_version) new_obj <- set_field(new_obj, "dataset_version", "1.0.0")
+      if (!has_changelog) new_obj <- set_field(new_obj, "changelog", list(changelog_entry))
       inserted <- TRUE
     }
   }
 
   if (!inserted) {
-    if (!has_dataset_version) new_obj[["dataset_version"]] <- "1.0.0"
-    if (!has_changelog) new_obj[["changelog"]] <- list(changelog_entry)
+    if (!has_dataset_version) new_obj <- set_field(new_obj, "dataset_version", "1.0.0")
+    if (!has_changelog) new_obj <- set_field(new_obj, "changelog", list(changelog_entry))
   }
 
   compact <- toJSON(new_obj, auto_unbox = TRUE, pretty = FALSE, null = "null")
@@ -68,4 +73,5 @@ if (length(missing_git_date) == 0) {
   cat(sprintf("MISSING_GIT_DATE_COUNT=%d\n", length(missing_git_date)))
   for (p in missing_git_date) cat(sprintf("MISSING_GIT_DATE_FILE=%s\n", p))
 }
+
 
