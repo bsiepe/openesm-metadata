@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1016/j.jpsychores.2020.110261",
   "zenodo_doi": "10.5281/zenodo.17347944",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-09-23",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://www.sciencedirect.com/science/article/pii/S0022399920308230?via%3Dihub#s0125",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://www.sciencedirect.com/science/article/pii/S0022399920308230?via%3Dihub#s0120",
@@ -182,3 +191,4 @@
     }
   ]
 }
+

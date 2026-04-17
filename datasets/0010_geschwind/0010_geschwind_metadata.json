@@ -6,6 +6,15 @@
   "reference_b": "@article{bringmann2013,\n  title = {A network approach to psychopathology: {{New}} insights into clinical longitudinal data},\n  shorttitle = {A {{Network Approach}} to {{Psychopathology}}},\n  author = {Bringmann, Laura F. and Vissers, Nathalie and Wichers, Marieke and Geschwind, Nicole and Kuppens, Peter and Peeters, Frenk and Borsboom, Denny and Tuerlinckx, Francis},\n  date = {2013-04-04},\n  journaltitle = {PLoS ONE},\n  shortjournal = {PLoS One},\n  volume = {8},\n  number = {4},\n  eprint = {23593171},\n  doi = {10.1371/journal.pone.0060188}\n}",
   "paper_doi": "https://doi.org/10.1371/journal.pone.0060188",
   "zenodo_doi": "10.5281/zenodo.17347473",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-09-23",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://doi.org/10.1371/journal.pone.0060188.s004",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "-",
@@ -168,3 +177,4 @@
     }
   ]
 }
+

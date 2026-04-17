@@ -6,6 +6,15 @@
   "reference_b": null,
   "paper_doi": "https://doi.org/10.1016/j.bpsc.2022.12.002",
   "zenodo_doi": "10.5281/zenodo.17347389",
+  "dataset_version": "1.0.0",
+  "changelog": [
+    {
+      "date": "2025-08-07",
+      "description": "Initial release.",
+      "type": "data",
+      "dataset_version": "1.0.0"
+    }
+  ],
   "link_to_data": "https://github.com/zwihawks/PredictingMomentaryCog",
   "license": "CC BY-NC 4.0",
   "link_to_codebook": "https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf",
@@ -686,3 +695,4 @@
     }
   ]
 }
+
