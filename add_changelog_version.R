@@ -68,3 +68,4 @@ if (length(missing_git_date) == 0) {
   cat(sprintf("MISSING_GIT_DATE_COUNT=%d\n", length(missing_git_date)))
   for (p in missing_git_date) cat(sprintf("MISSING_GIT_DATE_FILE=%s\n", p))
 }
+
