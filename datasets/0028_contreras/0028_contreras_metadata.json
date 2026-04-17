@@ -9,7 +9,7 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
-      "date": "2025-09-23",
+      "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
       "dataset_version": "1.0.0"
@@ -31,7 +31,7 @@
   "sampling_scheme": "10x/day stratified sampling",
   "participants": "participants with above-average paranoid ideation and/or interpersonal sensitivity",
   "coding_file": "0028_contreras_variables",
-  "additional_comments": null,
+  "additional_comments": {},
   "coder_data": "Björn Siepe",
   "coder_metadata": "Björn Siepe",
   "features": [
@@ -191,4 +191,3 @@
     }
   ]
 }
-
