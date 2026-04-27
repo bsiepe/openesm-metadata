@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-04-27",
+      "description": "Fix 'extraversion' typo in variable coding.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -214,7 +220,7 @@
       "transformation": "",
       "source": "PANAS Short Form",
       "assessment_type": "ESM",
-      "construct": "alertness, positive affect, affect, etxraversion, big five",
+      "construct": "alertness, positive affect, affect, extraversion, big five",
       "comments": ""
     },
     {

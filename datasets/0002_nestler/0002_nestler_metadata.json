@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-04-27",
+      "description": "Change Likert variables from 'numeric' to 'rating_scale'.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -80,7 +86,7 @@
     {
       "name": "sociable",
       "description": "Sociable",
-      "variable_type": "numeric",
+      "variable_type": "rating_scale",
       "coding": "Today I was sociable\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
       "answer_categories": "6",
       "details": "Today I was sociable",
@@ -94,7 +100,7 @@
     {
       "name": "creative",
       "description": "Creative",
-      "variable_type": "numeric",
+      "variable_type": "rating_scale",
       "coding": "Today I was creative\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
       "answer_categories": "6",
       "details": "Today I was creative",
@@ -108,7 +114,7 @@
     {
       "name": "friendly",
       "description": "Friendly",
-      "variable_type": "numeric",
+      "variable_type": "rating_scale",
       "coding": "Today I was friendly\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
       "answer_categories": "6",
       "details": "Today I was friendly",
@@ -122,7 +128,7 @@
     {
       "name": "organised",
       "description": "Organised",
-      "variable_type": "numeric",
+      "variable_type": "rating_scale",
       "coding": "Today I was organised\n\n1 (not at all) to 6 (extremely)\n(grand-mean centered)",
       "answer_categories": "6",
       "details": "Today I was organised",
@@ -136,7 +142,7 @@
     {
       "name": "self_esteem",
       "description": "Satisfied with myself",
-      "variable_type": "numeric",
+      "variable_type": "rating_scale",
       "coding": "Today I was satisfied with myself\n\n1 (not at all) to 6 (extremely)\n(self-esteem, grand-mean centered)",
       "answer_categories": "6",
       "details": "Today I was satisfied with myself",

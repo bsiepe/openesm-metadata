@@ -9,6 +9,12 @@
   "dataset_version": "1.0.0",
   "changelog": [
     {
+      "date": "2026-04-27",
+      "description": "Fixed variable name 'relaxed_personality' in metadata.",
+      "type": "metadata",
+      "dataset_version": "1.0.0"
+    },
+    {
       "date": "2025-10-14",
       "description": "Initial release.",
       "type": "data",
@@ -470,7 +476,7 @@
       "comments": ""
     },
     {
-      "name": "relaxation",
+      "name": "relaxed_personality",
       "description": "Relaxation",
       "variable_type": "rating_scale",
       "coding": "How accurate does each adjective describe your behavior in the last half hour? Relaxed\n1 = extremely inaccurate\n5 = extremely accurate\n(originally reverse coded)\nBased on Mini-Markers for Big-Five",
