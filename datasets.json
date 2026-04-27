@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "created_at": "2025-10-27 11:27:16",
+    "created_at": "2026-04-27 10:39:37",
     "n_datasets": 60,
     "description": "Combined metadata from all OpenESM datasets"
   },
@@ -13,6 +13,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1177/21677026211017839",
       "zenodo_doi": "10.5281/zenodo.17347269",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/mvdpe/",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/mx87b",
@@ -407,6 +416,21 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1007/s11336-021-09787-w",
       "zenodo_doi": "10.5281/zenodo.17347328",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2026-04-27",
+          "description": "Change Likert variables from 'numeric' to 'rating_scale'.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/gmz7e",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/wjysp/?view_only=cb2bf9adeef14eb488d228ffe2141699",
@@ -472,7 +496,7 @@
         {
           "name": "sociable",
           "description": "Sociable",
-          "variable_type": "numeric",
+          "variable_type": "rating_scale",
           "coding": "Today I was sociable\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
           "answer_categories": "6",
           "details": "Today I was sociable",
@@ -486,7 +510,7 @@
         {
           "name": "creative",
           "description": "Creative",
-          "variable_type": "numeric",
+          "variable_type": "rating_scale",
           "coding": "Today I was creative\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
           "answer_categories": "6",
           "details": "Today I was creative",
@@ -500,7 +524,7 @@
         {
           "name": "friendly",
           "description": "Friendly",
-          "variable_type": "numeric",
+          "variable_type": "rating_scale",
           "coding": "Today I was friendly\n\n1 (not at all) to 6 (extremely)\n (grand-mean centered)",
           "answer_categories": "6",
           "details": "Today I was friendly",
@@ -514,7 +538,7 @@
         {
           "name": "organised",
           "description": "Organised",
-          "variable_type": "numeric",
+          "variable_type": "rating_scale",
           "coding": "Today I was organised\n\n1 (not at all) to 6 (extremely)\n(grand-mean centered)",
           "answer_categories": "6",
           "details": "Today I was organised",
@@ -528,7 +552,7 @@
         {
           "name": "self_esteem",
           "description": "Satisfied with myself",
-          "variable_type": "numeric",
+          "variable_type": "rating_scale",
           "coding": "Today I was satisfied with myself\n\n1 (not at all) to 6 (extremely)\n(self-esteem, grand-mean centered)",
           "answer_categories": "6",
           "details": "Today I was satisfied with myself",
@@ -605,6 +629,21 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1016/j.bpsc.2022.12.002",
       "zenodo_doi": "10.5281/zenodo.17347389",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2026-04-27",
+          "description": "Fix 'extraversion' typo in variable coding.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://github.com/zwihawks/PredictingMomentaryCog",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://pmc.ncbi.nlm.nih.gov/articles/instance/10264553/bin/NIHMS1858073-supplement-1.pdf",
@@ -804,7 +843,7 @@
           "transformation": "",
           "source": "PANAS Short Form",
           "assessment_type": "ESM",
-          "construct": "alertness, positive affect, affect, etxraversion, big five",
+          "construct": "alertness, positive affect, affect, extraversion, big five",
           "comments": ""
         },
         {
@@ -1293,6 +1332,15 @@
       "reference_b": "@article{adler2022,\n  title = {Machine learning for passive mental health symptom prediction: {{Generalization}} across different longitudinal mobile sensing studies},\n  shorttitle = {Machine learning for passive mental health symptom prediction},\n  author = {Adler, Daniel A. and Wang, Fei and Mohr, David C. and Choudhury, Tanzeem},\n  date = {2022-04-27},\n  journaltitle = {PLOS ONE},\n  shortjournal = {PLOS ONE},\n  volume = {17},\n  number = {4},\n  pages = {e0266516},\n  publisher = {Public Library of Science},\n  issn = {1932-6203},\n  doi = {10.1371/journal.pone.0266516}\n}",
       "paper_doi": "https://doi.org/10.1371/journal.pone.0266516",
       "zenodo_doi": "10.5281/zenodo.17347425",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://pbh.tech.cornell.edu/data.html",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://studentlife.cs.dartmouth.edu/dataset.html",
@@ -2387,6 +2435,15 @@
       "reference_b": "@article{adler2022,\n  title = {Machine learning for passive mental health symptom prediction: {{Generalization}} across different longitudinal mobile sensing studies},\n  shorttitle = {Machine learning for passive mental health symptom prediction},\n  author = {Adler, Daniel A. and Wang, Fei and Mohr, David C. and Choudhury, Tanzeem},\n  date = {2022-04-27},\n  journaltitle = {PLOS ONE},\n  shortjournal = {PLOS ONE},\n  volume = {17},\n  number = {4},\n  pages = {e0266516},\n  publisher = {Public Library of Science},\n  issn = {1932-6203},\n  doi = {10.1371/journal.pone.0266516}\n}",
       "paper_doi": "https://doi.org/10.1371/journal.pone.0266516",
       "zenodo_doi": "10.5281/zenodo.17347402",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://pbh.tech.cornell.edu/data.html",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://pbh.tech.cornell.edu/data.html",
@@ -4559,6 +4616,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1007/s12671-020-01335-4",
       "zenodo_doi": "10.5281/zenodo.17347351",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/jmz2n/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/5t4yg",
@@ -4743,6 +4809,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1038/s41598-024-58598-3",
       "zenodo_doi": "10.5281/zenodo.17347510",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://doi.org/10.1038/s41598-024-58598-3",
       "license": "CC-BY 4.0",
       "link_to_codebook": "-",
@@ -5347,6 +5422,21 @@
       "reference_b": "@article{bringmann2013,\n  title = {A network approach to psychopathology: {{New}} insights into clinical longitudinal data},\n  shorttitle = {A {{Network Approach}} to {{Psychopathology}}},\n  author = {Bringmann, Laura F. and Vissers, Nathalie and Wichers, Marieke and Geschwind, Nicole and Kuppens, Peter and Peeters, Frenk and Borsboom, Denny and Tuerlinckx, Francis},\n  date = {2013-04-04},\n  journaltitle = {PLoS ONE},\n  shortjournal = {PLoS One},\n  volume = {8},\n  number = {4},\n  eprint = {23593171},\n  doi = {10.1371/journal.pone.0060188}\n}",
       "paper_doi": "https://doi.org/10.1371/journal.pone.0060188",
       "zenodo_doi": "10.5281/zenodo.17347473",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2026-04-27",
+          "description": "Fix information about sampling scheme.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://doi.org/10.1371/journal.pone.0060188.s004",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "-",
@@ -5360,7 +5450,7 @@
       "topics": "depression, neuroticism, mood",
       "implicit_missingness": "no",
       "raw_time_stamp": "no",
-      "sampling_scheme": "6x/day 90-minute interval",
+      "sampling_scheme": "10x/day 90-minute interval",
       "participants": "individuals with residual depressive symptoms",
       "coding_file": "0010_geschwind_variables",
       "additional_comments": "part of an experimental study; contains two study periods, each of the same length; pleasantness is on a different scale and its scale labels are unclear",
@@ -5517,6 +5607,15 @@
       "reference_b": "@article{bringmannAssessingTemporalEmotion2016,\n  title = {Assessing temporal emotion dynamics using networks},\n  author = {Bringmann, Laura F. and Pe, Madeline L. and Vissers, Nathalie and Ceulemans, Eva and Borsboom, Denny and Vanpaemel, Wolf and Tuerlinckx, Francis and Kuppens, Peter},\n  date = {2016-08-01},\n  journaltitle = {Assessment},\n  shortjournal = {Assessment},\n  volume = {23},\n  number = {4},\n  pages = {425--435},\n  publisher = {SAGE Publications Inc},\n  doi = {10.1177/1073191116645909}\n}",
       "paper_doi": "https://doi.org/10.1177/1073191116645909",
       "zenodo_doi": "10.5281/zenodo.17347412",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://journals-sagepub-com.ezproxy.ub.uni-marburg.de/doi/10.1177/1073191116645909#supplementary-materials",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "-",
@@ -5673,6 +5772,21 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1080/02699931.2018.1524747",
       "zenodo_doi": "10.5281/zenodo.17347569",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2026-04-27",
+          "description": "Fix typo for 'affect' in topics.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://figshare.com/articles/dataset/Poor_emotion_regulation_ability_mediates_the_link_between_depressive_symptoms_and_affective_bipolarity/7150664",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/487eg",
@@ -5683,7 +5797,7 @@
       "n_beeps_per_day": "7",
       "passive_data_available": "no",
       "cross_sectional_available": "yes",
-      "topics": "rumination, depression, emotion regulation, afect",
+      "topics": "rumination, depression, emotion regulation, affect",
       "implicit_missingness": "no",
       "raw_time_stamp": "no",
       "sampling_scheme": "7x/day stratified random interval scheme",
@@ -5829,6 +5943,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.36131/cnfioritieditore20220504",
       "zenodo_doi": "10.5281/zenodo.17347619",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/dngyk/",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/wj6xn",
@@ -6069,6 +6192,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.2196/15628",
       "zenodo_doi": "10.5281/zenodo.17347440",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://doi.org/10.34894/5HHK8H",
       "license": "CC0 1.0",
       "link_to_codebook": "https://dataverse.nl/file.xhtml?fileId=36289&version=2.0",
@@ -6771,6 +6903,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1371/journal.pone.0111080",
       "zenodo_doi": "10.5281/zenodo.17347647",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/27388",
       "license": "CC0 1.0",
       "link_to_codebook": "https://doi.org/10.7910/DVN/27388/U8IPJZ",
@@ -6913,6 +7054,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1038/s41597-024-04147-6",
       "zenodo_doi": "10.5281/zenodo.17347469",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://zenodo.org/records/14190139",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41597-024-04147-6/MediaObjects/41597_2024_4147_MOESM1_ESM.pdf",
@@ -7573,6 +7723,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1038/s41597-020-00700-1",
       "zenodo_doi": "10.5281/zenodo.17347690",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "http://doi.org/10.5281/zenodo.3774526",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://zenodo.org/records/4024141",
@@ -7743,6 +7902,21 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.12688/f1000research.157148.1",
       "zenodo_doi": "10.5281/zenodo.17347732",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2026-04-27",
+          "description": "Fix 'extraversion' typo in variable coding.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://doi.org/10.5281/zenodo.13332148",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://zenodo.org/records/13332148",
@@ -8012,7 +8186,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "ESM",
-          "construct": "alertness, positive affect, affect, etxraversion, big five",
+          "construct": "alertness, positive affect, affect, extraversion, big five",
           "comments": ""
         },
         {
@@ -8151,6 +8325,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1098/rsos.170194",
       "zenodo_doi": "10.5281/zenodo.17347760",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://doi.org/10.5061/dryad.b88c7",
       "license": "CC0 1.0",
       "link_to_codebook": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.b88c7#usage",
@@ -8321,6 +8504,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1027/1015-5759/a000725",
       "zenodo_doi": "10.5281/zenodo.17347537",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://github.com/Luca-Menghini/ESMscales-workplaceStress",
       "license": "GPL-3.0",
       "link_to_codebook": "https://osf.io/87a9p/files/osfstorage",
@@ -8743,6 +8935,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.31234/osf.io/jc938",
       "zenodo_doi": "10.5281/zenodo.17347813",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/rh2sw/",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/zy639",
@@ -8997,6 +9198,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.3758/s13428-021-01683-6",
       "zenodo_doi": "10.5281/zenodo.17347856",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/ze9wn",
@@ -9447,6 +9657,21 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.3758/s13428-021-01683-6",
       "zenodo_doi": "10.5281/zenodo.17347567",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2026-04-27",
+          "description": "Fixed variable name 'relaxed_personality' in metadata.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/vw3gf/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/23db5?view_only=6e6bf509c6374759b56faac680c55825",
@@ -9902,7 +10127,7 @@
           "comments": ""
         },
         {
-          "name": "relaxation",
+          "name": "relaxed_personality",
           "description": "Relaxation",
           "variable_type": "rating_scale",
           "coding": "How accurate does each adjective describe your behavior in the last half hour? Relaxed\n1 = extremely inaccurate\n5 = extremely accurate\n(originally reverse coded)\nBased on Mini-Markers for Big-Five",
@@ -10009,6 +10234,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.31234/osf.io/uj6df",
       "zenodo_doi": "10.5281/zenodo.17347879",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/jvms7",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/w3vp5",
@@ -10221,6 +10455,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1002/per.2109",
       "zenodo_doi": "10.5281/zenodo.17347892",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/s3chz/?view_only=",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/u95vg",
@@ -10433,6 +10676,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.3389/fpsyg.2020.544565",
       "zenodo_doi": "10.5281/zenodo.17347605",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/7tk4b/",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/bkn3y",
@@ -10617,6 +10869,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1016/j.jpsychores.2020.110261",
       "zenodo_doi": "10.5281/zenodo.17347944",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://www.sciencedirect.com/science/article/pii/S0022399920308230?via%3Dihub#s0125",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://www.sciencedirect.com/science/article/pii/S0022399920308230?via%3Dihub#s0120",
@@ -10801,6 +11062,15 @@
       "reference_b": "@article{dejonckheere2019b,\n  title = {Complex affect dynamics add limited information to the prediction of psychological well-being},\n  author = {Dejonckheere, Egon and Mestdagh, Merijn and Houben, Marlies and Rutten, Isa and Sels, Laura and Kuppens, Peter and Tuerlinckx, Francis},\n  date = {2019-04-15},\n  journaltitle = {Nature Human Behaviour},\n  shortjournal = {Nat Hum Behav},\n  volume = {3},\n  number = {5},\n  pages = {478--491},\n  issn = {2397-3374},\n  doi = {10.1038/s41562-019-0555-0}\n}",
       "paper_doi": "http://doi.org/10.1037/a0033579",
       "zenodo_doi": "10.5281/zenodo.17347968",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/zm6uw",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "-",
@@ -10943,6 +11213,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1037/emo0000669",
       "zenodo_doi": "10.5281/zenodo.17347621",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/r7jw6/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/b5s97",
@@ -11225,6 +11504,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1037/abn0000311",
       "zenodo_doi": "10.5281/zenodo.17348038",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/5ybxt/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/h93f4",
@@ -11689,6 +11977,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1002/jts.22491",
       "zenodo_doi": "10.5281/zenodo.17348019",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/6vxhf/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/juksb",
@@ -12279,6 +12576,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1037/adb0000666",
       "zenodo_doi": "10.5281/zenodo.17347645",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/q7upd/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "-",
@@ -12659,6 +12965,21 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.31234/osf.io/bhn7y",
       "zenodo_doi": "10.5281/zenodo.17348118",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2026-04-27",
+          "description": "Fix 'extraversion' typo in variable coding.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/4x8jd/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "-",
@@ -12984,7 +13305,7 @@
           "transformation": "",
           "source": "",
           "assessment_type": "",
-          "construct": "alertness, positive affect, affect, etxraversion, big five",
+          "construct": "alertness, positive affect, affect, extraversion, big five",
           "comments": ""
         },
         {
@@ -13123,6 +13444,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.31234/osf.io/e24v6",
       "zenodo_doi": "10.5281/zenodo.17348069",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/nkemg/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004",
@@ -13685,6 +14015,21 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1177/02654075211045717",
       "zenodo_doi": "10.5281/zenodo.17347657",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Changed publication year from 2018 to 2021.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/huz67",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "-",
@@ -13883,6 +14228,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1145/3643501",
       "zenodo_doi": "10.5281/zenodo.17348144",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset",
       "license": "CC BY-NC-SA 4.0",
       "link_to_codebook": "https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset/data",
@@ -14277,6 +14631,15 @@
       "reference_b": "@article{wright2015,\n  title = {Daily interpersonal and affective dynamics in personality disorder},\n  author = {Wright, Aidan G. C. and Hopwood, Christopher J. and Simms, Leonard J.},\n  date = {2015-08},\n  journaltitle = {Journal of Personality Disorders},\n  volume = {29},\n  number = {4},\n  pages = {503--525},\n  publisher = {Guilford Publications Inc.},\n  doi = {10.1521/pedi.2015.29.4.503}\n}",
       "paper_doi": "https://doi.org/10.1037/pas0000617",
       "zenodo_doi": "10.5281/zenodo.17348148",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/5x8rv",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "-",
@@ -14433,6 +14796,15 @@
       "reference_b": "@online{vize2023,\n  title = {Socio-affective dynamics of psychopathy in daily life},\n  author = {Vize, Colin and Scott, Lori and Wright, Aidan and Kamarck, Thomas},\n  date = {2023-02-15},\n  eprinttype = {PsyArXiv},\n  doi = {10.31234/osf.io/m9nxz},\n  pubstate = {prepublished}\n}",
       "paper_doi": "https://doi.org/10.31219/osf.io/3szng",
       "zenodo_doi": "10.5281/zenodo.17347765",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/dcfb5/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/dcfb5/files/agmcx",
@@ -14897,6 +15269,15 @@
       "reference_b": "@online{vize2023,\n  title = {Socio-affective dynamics of psychopathy in daily life},\n  author = {Vize, Colin and Scott, Lori and Wright, Aidan and Kamarck, Thomas},\n  date = {2023-02-15},\n  eprinttype = {PsyArXiv},\n  doi = {10.31234/osf.io/m9nxz},\n  pubstate = {prepublished}\n}",
       "paper_doi": "https://doi.org/10.31219/osf.io/3szng",
       "zenodo_doi": "10.5281/zenodo.17348182",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/dcfb5",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/dcfb5/files/agmcx",
@@ -15375,6 +15756,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.31219/osf.io/3szng",
       "zenodo_doi": "10.5281/zenodo.17386028",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-18",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/dcfb5",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/dcfb5/files/agmcx",
@@ -15699,6 +16089,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1037/emo0001245",
       "zenodo_doi": "10.5281/zenodo.17347798",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://github.com/mkullar/DataDrivenEmotionDynamics",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "-",
@@ -15925,6 +16324,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.31234/osf.io/g7n4a_v3",
       "zenodo_doi": "10.5281/zenodo.17348284",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/unvp8",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": {},
@@ -16095,6 +16503,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1038/s41598-024-75261-z",
       "zenodo_doi": "10.5281/zenodo.17348222",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/6n5zj/",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/4tpvd",
@@ -16321,6 +16738,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1038/s41598-024-75261-z",
       "zenodo_doi": "10.5281/zenodo.17347819",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/6n5zj/",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/4tpvd",
@@ -16547,6 +16973,21 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1080/15213269.2020.1768122",
       "zenodo_doi": "10.5281/zenodo.17348348",
+      "dataset_version": "1.1.0",
+      "changelog": [
+        {
+          "date": "2026-04-27",
+          "description": "Fix coding of 'concentrated_activity_binary'.",
+          "type": "data",
+          "dataset_version": "1.1.0"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/ps3rk/files",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/xf2pq/",
@@ -17137,6 +17578,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1007/s10862-022-10014-8",
       "zenodo_doi": "10.5281/zenodo.17348267",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/pt9dk",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/r85q6",
@@ -17699,6 +18149,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1016/j.bodyim.2020.09.003",
       "zenodo_doi": "10.5281/zenodo.17347854",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/qy9uj/files/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": {},
@@ -18065,6 +18524,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1080/02699931.2022.2081534",
       "zenodo_doi": "10.5281/zenodo.17361509",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-15",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/e8423",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/u59nd/files/",
@@ -18291,6 +18759,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1111/famp.12995",
       "zenodo_doi": "10.5281/zenodo.17348326",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/8jhuk",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": {},
@@ -18586,7 +19063,16 @@
       "reference_a": "@article{ryvkina2023,\n  title = {Understanding psychological responses to the {{COVID-19}} pandemic through {{ESM}} data: {{The EMOTIONS}} project},\n  shorttitle = {Understanding psychological responses to the {{COVID-19}} pandemic through {{ESM}} data},\n  author = {Ryvkina, Elina and Kroencke, Lara and Geukes, Katharina and Scharbert, Julian and Back, Mitja D.},\n  date = {2023-04-10T13:36:31+00:00},\n  journaltitle = {Journal of Open Psychology Data},\n  volume = {11},\n  number = {1},\n  issn = {2050-9863},\n  doi = {10.5334/jopd.83}\n}",
       "reference_b": "@article{kroencke2023,\n  title = {Narcissistic status pursuit in everyday social life: {{A}} within-person process approach to the behavioral and emotional dynamics of narcissism},\n  shorttitle = {Narcissistic status pursuit in everyday social life},\n  author = {Kroencke, Lara and Kuper, Niclas and Mota, Simon and Geukes, Katharina and Zeigler-Hill, Virgil and Back, Mitja D.},\n  date = {2023-12},\n  journaltitle = {Journal of Personality and Social Psychology},\n  shortjournal = {Journal of Personality and Social Psychology},\n  volume = {125},\n  number = {6},\n  pages = {1519--1541},\n  issn = {1939-1315, 0022-3514},\n  doi = {10.1037/pspp0000467}\n}",
       "paper_doi": "https://doi.org/10.5334/jopd.83",
-      "zenodo_doi": {},
+      "zenodo_doi": "10.5281/zenodo.17386600",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-18",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/6kzx3/",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/6kzx3/",
@@ -19723,6 +20209,15 @@
       "reference_b": "@article{kroencke2023,\n  title = {Narcissistic status pursuit in everyday social life: {{A}} within-person process approach to the behavioral and emotional dynamics of narcissism},\n  shorttitle = {Narcissistic status pursuit in everyday social life},\n  author = {Kroencke, Lara and Kuper, Niclas and Mota, Simon and Geukes, Katharina and Zeigler-Hill, Virgil and Back, Mitja D.},\n  date = {2023-12},\n  journaltitle = {Journal of Personality and Social Psychology},\n  shortjournal = {Journal of Personality and Social Psychology},\n  volume = {125},\n  number = {6},\n  pages = {1519--1541},\n  issn = {1939-1315, 0022-3514},\n  doi = {10.1037/pspp0000467}\n}",
       "paper_doi": "https://doi.org/10.5334/jopd.83",
       "zenodo_doi": "10.5281/zenodo.17361657",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-15",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/6kzx3/",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/6kzx3/",
@@ -21027,6 +21522,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1177/21677026221147262",
       "zenodo_doi": "10.5281/zenodo.17348369",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/gct7x/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/gct7x",
@@ -21547,6 +22051,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1037/emo0000659",
       "zenodo_doi": "10.5281/zenodo.17347911",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/nvt6a/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/v2am8",
@@ -21885,6 +22398,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1177/09567976221093307",
       "zenodo_doi": "10.5281/zenodo.17361673",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-15",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/8ebyx/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://github.com/emoriebeck/behavior-prediction/tree/main/01-codebooks",
@@ -23399,6 +23921,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1007/s10902-024-00710-5",
       "zenodo_doi": "10.5281/zenodo.17348441",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/nts94/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": {},
@@ -23639,6 +24170,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1007/s11618-023-01182-8",
       "zenodo_doi": "10.5281/zenodo.17347974",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/bhq3p",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/csfwg",
@@ -25699,6 +26239,21 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1007/s10902-022-00546-x",
       "zenodo_doi": "10.5281/zenodo.17361708",
+      "dataset_version": "1.0.1",
+      "changelog": [
+        {
+          "date": "2025-10-18",
+          "description": "Removed underscore from file names.",
+          "type": "data",
+          "dataset_version": "1.0.1"
+        },
+        {
+          "date": "2025-10-15",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/k98pt/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": {},
@@ -26093,6 +26648,21 @@
       "reference_b": "@article{wendt2020,\n  title = {Indicators of affect dynamics: {{Structure}}, reliability, and personality correlates},\n  shorttitle = {Indicators of affect dynamics},\n  author = {Wendt, Leon P. and Wright, Aidan G.C. and Pilkonis, Paul A. and Woods, William C. and Denissen, Jaap J.A. and Kühnel, Anja and Zimmermann, Johannes},\n  date = {2020},\n  journaltitle = {European Journal of Personality},\n  volume = {34},\n  number = {6},\n  pages = {1060--1072},\n  issn = {1099-0984},\n  doi = {10.1002/per.2277}\n}",
       "paper_doi": "https://doi.org/10.1037/abn0000286",
       "zenodo_doi": "10.5281/zenodo.17348495",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2026-04-27",
+          "description": "Fix 'extraversion' typo in variable coding.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/6ghcx/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "-",
@@ -26544,7 +27114,7 @@
           "transformation": "",
           "source": "PANAS-X",
           "assessment_type": "ESM",
-          "construct": "alertness, positive affect, affect, etxraversion, big five",
+          "construct": "alertness, positive affect, affect, extraversion, big five",
           "comments": ""
         },
         {
@@ -26669,6 +27239,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1371/journal.pone.0292735",
       "zenodo_doi": "10.5281/zenodo.17348001",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/gefqx/files/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/gefqx/files/",
@@ -29191,6 +29770,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1002/per.2252",
       "zenodo_doi": "10.5281/zenodo.17348032",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/v4qh9/",
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/v8sa7",
@@ -30061,6 +30649,15 @@
       "reference_b": "@article{scharbert2024,\n  title = {Psychological well-being in {{Europe}} after the outbreak of war in {{Ukraine}}},\n  author = {Scharbert, Julian and Humberg, Sarah and Kroencke, Lara and Reiter, Thomas and Sakel, Sophia and family=Horst, given=Julian, prefix=ter, useprefix=true and Utesch, Katharina and Gosling, Samuel D. and Harari, Gabriella and Matz, Sandra C. and Schoedel, Ramona and Stachl, Clemens and Aguilar, Natalia M. A. and Amante, Dayana and Aquino, Sibele D. and Bastias, Franco and Bornamanesh, Alireza and Bracegirdle, Chloe and Campos, Luís A. M. and Chauvin, Bruno and Coetzee, Nicoleen and Dorfman, Anna and family=Santos, given=Monika, prefix=dos, useprefix=true and El-Haddad, Rita W. and Fajkowska, Malgorzata and Göncü-Köse, Asli and Gnisci, Augusto and Hadjisolomou, Stavros and Hale, William W. and Katzir, Maayan and Khechuashvili, Lili and Kirchner-Häusler, Alexander and Kotzur, Patrick F. and Kritzler, Sarah and Lu, Jackson G. and Machado, Gustavo D. S. and Martskvishvili, Khatuna and Mottola, Francesca and Obschonka, Martin and Paolini, Stefania and Perugini, Marco and Rohmer, Odile and Saeedian, Yasser and Sergi, Ida and Shani, Maor and Skimina, Ewa and Smillie, Luke D. and Talaifar, Sanaz and Talhelm, Thomas and Tokat, Tülüce and Torres, Ana and Torres, Claudio V. and Van Assche, Jasper and Wei, Liuqing and Yalçın, Aslı and family=Zalk, given=Maarten, prefix=van, useprefix=true and Bühner, Markus and Back, Mitja D.},\n  date = {2024-02-20},\n  journaltitle = {Nature Communications},\n  shortjournal = {Nat Commun},\n  volume = {15},\n  number = {1},\n  pages = {1202},\n  publisher = {Nature Publishing Group},\n  issn = {2041-1723},\n  doi = {10.1038/s41467-024-44693-6}\n}",
       "paper_doi": "https://doi.org/10.1038/s41467-024-44693-6",
       "zenodo_doi": "10.5281/zenodo.17348583",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-14",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/8f3yu",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/nfkze",
@@ -30273,6 +30870,15 @@
       "reference_b": {},
       "paper_doi": "https://doi.org/10.1111/cdev.13515",
       "zenodo_doi": "10.5281/zenodo.17361778",
+      "dataset_version": "1.0.0",
+      "changelog": [
+        {
+          "date": "2025-10-15",
+          "description": "Initial release.",
+          "type": "data",
+          "dataset_version": "1.0.0"
+        }
+      ],
       "link_to_data": "https://osf.io/wcerj/",
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/tyc32",
@@ -30395,10 +31001,10 @@
           "name": "school_new_material",
           "description": "New material in school",
           "variable_type": "categorical",
-          "coding": "Did your child receive learning materials or tasks from school today? \n1= yes  \n2= no \n3= don’t know",
+          "coding": "Did your child receive learning materials or tasks from school today? \n1= yes \n2= no \n3= don’t know",
           "answer_categories": "3",
           "details": "Did your child receive learning materials or tasks from school today?",
-          "labels": "1= yes  \n2= no \n3= don’t know",
+          "labels": "1= yes \n2= no \n3= don’t know",
           "transformation": "",
           "source": "",
           "assessment_type": "Daily",
@@ -30409,10 +31015,10 @@
           "name": "school_work_today",
           "description": "Child worked on school material",
           "variable_type": "categorical",
-          "coding": "Has your child worked on materials or tasks today for school? This either refers to tasks designed for this particular day, or tasks that can be worked on over several days. \n1= yes  \n2= no  \n3= don’t know",
+          "coding": "Has your child worked on materials or tasks today for school? This either refers to tasks designed for this particular day, or tasks that can be worked on over several days. \n1= yes \n2= no  \n3= don’t know",
           "answer_categories": "3",
           "details": "Has your child worked on materials or tasks today for school? This either refers to tasks designed for this particular day, or tasks that can be worked on over several days.",
-          "labels": "1= yes  \n2= no  \n3= don’t know",
+          "labels": "1= yes \n2= no  \n3= don’t know",
           "transformation": "",
           "source": "",
           "assessment_type": "Daily",
@@ -31893,10 +32499,10 @@
           "name": "corona_info_update",
           "description": "Corona info updates",
           "variable_type": "rating_scale",
-          "coding": "How often did you update yourself about the corona pandemic today (e.g., by reading newspapers, watching the news, push notifications, online news)? \n1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+          "coding": "How often did you update yourself about the corona pandemic today (e.g., by reading newspapers, watching the news, push notifications, online news)? \n1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
           "answer_categories": "5",
           "details": "How often did you update yourself about the corona pandemic today (e.",
-          "labels": "1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+          "labels": "1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
           "transformation": "",
           "source": "",
           "assessment_type": "Daily",
@@ -31907,10 +32513,10 @@
           "name": "corona_talk_friends_family",
           "description": "Corona talk friends/family",
           "variable_type": "rating_scale",
-          "coding": "How often did you talk /exchange information viewpoints to friends or family about the corona pandemic today?\n1= not at all \n2= rarely \n3= sometimes \n4= often \n5= very often",
+          "coding": "How often did you talk /exchange information viewpoints to friends or family about the corona pandemic today?\n1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
           "answer_categories": "5",
           "details": "How often did you talk /exchange information viewpoints to friends or family about the corona pandemic today?",
-          "labels": "1= not at all \n2= rarely \n3= sometimes \n4= often \n5= very often",
+          "labels": "1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
           "transformation": "",
           "source": "",
           "assessment_type": "Daily",
@@ -31921,10 +32527,10 @@
           "name": "corona_social_media_check",
           "description": "Corona social media checking",
           "variable_type": "rating_scale",
-          "coding": "How often did you check up on posts, articles, images, comments regarding the corona pandemic on social media today?\n1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+          "coding": "How often did you check up on posts, articles, images, comments regarding the corona pandemic on social media today?\n1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
           "answer_categories": "5",
           "details": "How often did you check up on posts, articles, images, comments regarding the corona pandemic on social media today?",
-          "labels": "1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+          "labels": "1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
           "transformation": "",
           "source": "",
           "assessment_type": "Daily",
@@ -31935,10 +32541,10 @@
           "name": "corona_social_media_create",
           "description": "Corona social media creating",
           "variable_type": "rating_scale",
-          "coding": "How often did you create or share posts, images or comments about the corona pandemic on social media today?\n1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+          "coding": "How often did you create or share posts, images or comments about the corona pandemic on social media today?\n1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
           "answer_categories": "5",
           "details": "How often did you create or share posts, images or comments about the corona pandemic on social media today?",
-          "labels": "1= not at all \n2= rarely\n 3= sometimes \n4= often \n5= very often",
+          "labels": "1= not at all \n2= rarely\n3= sometimes \n4= often \n5= very often",
           "transformation": "",
           "source": "",
           "assessment_type": "Daily",
