@@ -35,7 +35,7 @@ combined_datasets <- list(
   metadata = list(
     created_at = Sys.time(),
     n_datasets = length(all_metadata),
-    description = "Combined metadata from all OpenESM datasets"
+    description = "Combined metadata from all openESM datasets"
   ),
   datasets = all_metadata
 )
