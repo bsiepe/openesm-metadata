@@ -55,5 +55,5 @@ cat("Total datasets processed:", length(all_metadata), "\n")
 cat("Output file:", output_file, "\n")
 cat("File size:", file.size(output_file), "bytes\n")
 
-dataset_ids <- purrr::map_chr(all_metadata, ~ .x$dataset %||% "unknown")
+dataset_ids <- purrr::map_chr(all_metadata, ~ .x$dataset_id %||% "unknown")
 cat("Dataset IDs included:", paste(dataset_ids, collapse = ", "), "\n")
