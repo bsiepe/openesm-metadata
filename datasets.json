@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "created_at": "2026-09-03 09:25:30",
+    "created_at": "2026-09-09 11:51:25",
     "n_datasets": 62,
     "description": "Combined metadata from all openESM datasets"
   },
@@ -16,6 +16,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -26,7 +32,7 @@
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/mx87b",
       "link_to_code": "https://osf.io/mvdpe/",
-      "n_participants": 80,
+      "n_participants": 79,
       "n_time_points": 56,
       "n_days": "14",
       "n_beeps_per_day": "4",
@@ -2438,6 +2444,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -2448,7 +2460,7 @@
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://pbh.tech.cornell.edu/data.html",
       "link_to_code": "https://github.com/CornellPACLab/data_heterogeneity",
-      "n_participants": 62,
+      "n_participants": 60,
       "n_time_points": 165,
       "n_days": "165",
       "n_beeps_per_day": "1",
@@ -7889,6 +7901,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-04-27",
           "description": "Fix 'extraversion' typo in variable coding.",
           "type": "metadata",
@@ -7905,7 +7923,7 @@
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://zenodo.org/records/13332148",
       "link_to_code": {},
-      "n_participants": 302,
+      "n_participants": 300,
       "n_time_points": 40,
       "n_days": "10",
       "n_beeps_per_day": "4",
@@ -8491,6 +8509,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -8501,7 +8525,7 @@
       "license": "GPL-3.0",
       "link_to_codebook": "https://osf.io/87a9p/files/osfstorage",
       "link_to_code": "https://github.com/Luca-Menghini/ESMscales-workplaceStress/tree/main/S3_dataAnalysis",
-      "n_participants": 139,
+      "n_participants": 211,
       "n_time_points": 21,
       "n_days": "3",
       "n_beeps_per_day": "7",
@@ -9185,6 +9209,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -9195,7 +9225,7 @@
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://osf.io/ze9wn",
       "link_to_code": "https://osf.io/vw3gf/?view_only=b6f9f08a6b5941eb9c17a4951d1d0cd2;",
-      "n_participants": 313,
+      "n_participants": 316,
       "n_time_points": 84,
       "n_days": "14",
       "n_beeps_per_day": "3 or 9",
@@ -11049,6 +11079,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -11059,7 +11095,7 @@
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "-",
       "link_to_code": "https://osf.io/x4rne",
-      "n_participants": 95,
+      "n_participants": 100,
       "n_time_points": 70,
       "n_days": "7",
       "n_beeps_per_day": "10",
@@ -13431,6 +13467,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -13441,7 +13483,7 @@
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217150#sec004",
       "link_to_code": "https://osf.io/nkemg/",
-      "n_participants": 70,
+      "n_participants": 52,
       "n_time_points": 128,
       "n_days": "34",
       "n_beeps_per_day": "4",
@@ -14215,6 +14257,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -14225,7 +14273,7 @@
       "license": "CC BY-NC-SA 4.0",
       "link_to_codebook": "https://www.kaggle.com/datasets/subigyanepal/college-experience-dataset/data",
       "link_to_code": {},
-      "n_participants": 218,
+      "n_participants": 220,
       "n_time_points": 441,
       "n_days": "441",
       "n_beeps_per_day": "1",
@@ -16960,6 +17008,12 @@
       "dataset_version": "1.1.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.1.0"
+        },
+        {
           "date": "2026-04-27",
           "description": "Fix coding of 'concentrated_activity_binary'.",
           "type": "data",
@@ -16976,7 +17030,7 @@
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/xf2pq/",
       "link_to_code": "https://osf.io/ps3rk/files",
-      "n_participants": 75,
+      "n_participants": 77,
       "n_time_points": 40,
       "n_days": "5",
       "n_beeps_per_day": "8",
@@ -17565,6 +17619,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -17575,7 +17635,7 @@
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/r85q6",
       "link_to_code": "https://osf.io/pt9dk",
-      "n_participants": 140,
+      "n_participants": 145,
       "n_time_points": 63,
       "n_days": "21",
       "n_beeps_per_day": "3",
@@ -18746,6 +18806,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -18756,7 +18822,7 @@
       "license": "CC BY-NC 4.0",
       "link_to_codebook": {},
       "link_to_code": "https://osf.io/8jhuk",
-      "n_participants": 78,
+      "n_participants": 72,
       "n_time_points": 147,
       "n_days": "21",
       "n_beeps_per_day": "7",
@@ -21509,6 +21575,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -24157,6 +24229,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2025-10-14",
           "description": "Initial release.",
           "type": "data",
@@ -24167,7 +24245,7 @@
       "license": "CC-BY 4.0",
       "link_to_codebook": "https://osf.io/csfwg",
       "link_to_code": "https://osf.io/84kdr/files",
-      "n_participants": 321,
+      "n_participants": 322,
       "n_time_points": 84,
       "n_days": "14",
       "n_beeps_per_day": "6",
@@ -32426,6 +32504,12 @@
       "dataset_version": "1.0.0",
       "changelog": [
         {
+          "date": "2026-09-09",
+          "description": "Fix information about number of participants.",
+          "type": "metadata",
+          "dataset_version": "1.0.0"
+        },
+        {
           "date": "2026-04-29",
           "description": "Initial release.",
           "type": "data",
@@ -32436,7 +32520,7 @@
       "license": "CC BY-NC 4.0",
       "link_to_codebook": "https://github.com/MaurizioSicorello/SDERSvalid_Analysis/blob/main/data/SDERSvalid_Codebook.xlsx",
       "link_to_code": "https://github.com/MaurizioSicorello/SDERSvalid_Analysis/tree/main/scripts",
-      "n_participants": 214,
+      "n_participants": 227,
       "n_time_points": 60,
       "n_days": "10",
       "n_beeps_per_day": "6",
